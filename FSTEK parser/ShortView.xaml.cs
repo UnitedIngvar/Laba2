@@ -20,16 +20,16 @@ namespace FSTEK_parser
     /// </summary>
     public partial class ShortView : Page 
     {
-        private PagingCollectionView _view;
+        private PagingCollectionView view;
         public ShortView(PagingCollectionView view)
         {
             InitializeComponent();
-            _view = view;
+            this.view = view;
         }
 
         private void DataGrid_Loaded(object sender, RoutedEventArgs e)
         {
-            thrShortList.ItemsSource = _view.SourceCollection;
+            thrShortList.ItemsSource = view.SourceCollection;
         }
     }
 }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSTEK parser", "FSTEK parser\FSTEK parser.csproj", "{2F0E4E86-DE5A-4B15-AD78-76C116486C31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSTEK_parser", "FSTEK parser\FSTEK_parser.csproj", "{2F0E4E86-DE5A-4B15-AD78-76C116486C31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
