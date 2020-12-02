@@ -1,0 +1,19 @@
+﻿<Page x:Class="FSTEK_parser.ShortView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FSTEK_parser"
+      mc:Ignorable="d" 
+      d:DesignHeight="1000" d:DesignWidth="1500"
+      Title="ShortView">
+
+    <Grid>
+        <DataGrid x:Name="thrShortList" Loaded="DataGrid_Loaded" ItemsSource="{Binding}" AutoGenerateColumns="False" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding= "{Binding Id}" Header="Идентификатор УБИ" Width ="Auto"/>
+                <DataGridTextColumn Binding ="{Binding Name}" Header="Наименование угрозы" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>
