@@ -1,4 +1,0 @@
-﻿Build started...
-1>------ Build started: Project: FSTEK parser, Configuration: Debug Any CPU ------
-1>  FSTEK parser -> C:\Users\Игорь Петров\source\repos\FSTEK parser\FSTEK parser\bin\Debug\FSTEK parser.exe
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

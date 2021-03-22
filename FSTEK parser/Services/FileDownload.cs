@@ -32,7 +32,7 @@ namespace FSTEK_parser.Services
             }
             else
             {
-                client.DownloadFileAsync(uri, appStartPath + "/" + fileName);
+                client.DownloadFile(uri, appStartPath + "/" + fileName);
             }
         }
 
@@ -44,7 +44,7 @@ namespace FSTEK_parser.Services
             File.Move(PATH ,Path.GetFileName(PATH).Replace($"{fileName}", $"old{fileName}"));
             PATH = Environment.CurrentDirectory + "/" + Path.GetFileName(PATH).Replace($"{fileName}", $"old{fileName}");
 
-            client.DownloadFileAsync(uri, appStartPath + "/" + fileName);
+            client.DownloadFile(uri, appStartPath + "/" + fileName);
             string newPATH = appStartPath + "/" + fileName;
 
             using (var workbook = new XLWorkbook(PATH))
